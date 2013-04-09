@@ -1,0 +1,17 @@
+auto: true
+permalink: /archives/:year/:month/:day-:title.html
+paginate: 2
+paginate_path: /pages/:num/
+excerpt_separator: <!-- more -->
+
+name: 前行的蜗牛
+desc: 慢是一种姿态
+author: mhoman
+url: mhoman.me
+email: i@mhoman.me
+
+alias:
+  it: 技术
+  live: 生活
+  fun: 趣事 
+  misc: 杂七杂八
