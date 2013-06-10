@@ -1,6 +1,6 @@
 auto: true
 permalink: /archives/:year/:month/:day-:title.html
-paginate: 2
+paginate: 10
 paginate_path: /pages/:num/
 excerpt_separator: <!-- more -->
 

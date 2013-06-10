@@ -1,4 +1,8 @@
 ---
-layout: index
+layout: default
 ---
-{% include paginate.html %}
+{% if paginator.page == 1 %}
+	{% include index.html %}
+{% else %}
+	{% include page.html %}
+{% endif %}
