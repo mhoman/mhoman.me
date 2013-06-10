@@ -1,5 +1,23 @@
 ---
 layout: post
-title: Second Post
+title: Makefile的命令变量
 ---
-Second Post
+AR
+
+函数库打包程序。默认命令是"ar"。
+
+AS
+
+汇编语言编译程序。默认命令是"as"。
+
+CC
+
+C语言编译程序。默认命令是"cc"。
+
+CXX
+
+C++语言编译程序。默认命令是"g++"。
+
+CPP
+
+C程序的预处理器（输出是标准输出设备）。默认命令是"$(CC) -E"。
