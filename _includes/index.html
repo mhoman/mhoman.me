@@ -1,0 +1,12 @@
+<div class="main">
+	<div class="page">
+		{% include page.html %}
+	</div>
+	<ul class="paginator">
+		<li><a class="previous" href="#">上一页</a></li>
+	{% for p in (1..paginator.total_pages) %}
+		<li><a class="goto" href="#{{ p }}">{{ p }}</a></li>
+	{% endfor %}
+		<li><a class="next" href="#">下一页</a></li>
+	</ul>
+</div>
